@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnBattery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battery" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="16dp"/>
+
+    <Button
+        android:id="@+id/btnBalanced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balanced" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="16dp"/>
+
+    <Button
+        android:id="@+id/btnGaming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaming" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="16dp"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ready"
+        android:gravity="center"
+        android:paddingTop="8dp"/>
+</LinearLayout>
